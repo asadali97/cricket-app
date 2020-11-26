@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: rgb(236, 229, 229);
+
+}
+
+header{
+background-color: #58d9f0;
+color: white;
+padding: 5px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+   background-color: rgb(255, 255, 255);
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.main{
+ text-align: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topnav {
+  display: block;
+  overflow: hidden;
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style the topnav links */
+.topnav .nav {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav .nav:hover {
+  background-color: black;
+  color: white;
+}
