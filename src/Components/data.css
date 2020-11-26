@@ -1,0 +1,88 @@
+img{
+  position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 520px;
+    height: 320px;
+    margin-bottom: 20px;
+  }
+  
+  .main{
+    position: relative;
+    display: flexbox;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 1px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    border: white 1px;
+    border-style: ridge;
+  }
+
+  .para{
+  position: relative;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.date{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  padding-bottom: 10px;
+  border: white 1px;
+}
+
+.wrapper{
+  display: flexbox;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  border: white 2px;
+}
+
+.searchDate{
+  position: relative;
+  border: white 1px;
+  background-color: white;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.inputText{
+  padding-top: 10px;
+}
+
+.link:link {
+  text-decoration: none;
+  color: black;
+}
+
+.input[type=text] {
+  width: 600px;
+  height: 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  border-radius: 5px 5px;
+}
+
+.input[type=text]:focus {
+  width: 90%;
+}
+
+input{
+  width: 100px;
+  height: 40px;
+  border-radius: 5px 5px;
+}
